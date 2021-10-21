@@ -10,7 +10,7 @@ describe('create account', () => {
     // const uuid = () => Cypress._.random(0, 1e6)
     //     const id = uuid()
         
-
+ /// proba
     let id = home.getRandomNumber();
     const testname = `testname_nexo${id}@mailinator.com`
 
