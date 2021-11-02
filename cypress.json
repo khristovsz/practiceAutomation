@@ -1,1 +1,4 @@
-{}
+{
+    "commonPath": "cypress/support/step_definitions",
+    "testFiles": "**/*.{feature,features}"
+}

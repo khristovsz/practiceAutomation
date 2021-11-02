@@ -1,15 +1,15 @@
 class HomePage {
 
 
-    goToRegister(){
+    goToRegister() {
         cy.get('#customer_menu_top > li > a').click()
 
     }
 
-    getRandomNumber(){
+    getRandomNumber() {
         const uuid = () => Cypress._.random(0, 1e6)
         return uuid()
-        
+
     }
 
 }
