@@ -16,7 +16,11 @@
     "url": "https://github.com/khristovsz/practiceAutomation/issues"
   },
   "homepage": "https://github.com/khristovsz/practiceAutomation#readme",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false
+  },
   "devDependencies": {
-    "cypress": "^8.4.1"
+    "cypress": "^8.4.1",
+    "cypress-cucumber-preprocessor": "^4.3.0"
   }
 }
