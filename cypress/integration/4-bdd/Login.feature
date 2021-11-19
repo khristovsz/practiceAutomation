@@ -3,7 +3,7 @@ Feature: Login
     Verify Login page and its actions
 
     Background:
-        Given Open Login page in successfully
+        Given Open Login page successfully
 
     Scenario: Verify page
         Then verify Login screen

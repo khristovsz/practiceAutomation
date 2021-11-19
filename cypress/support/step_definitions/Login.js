@@ -11,7 +11,7 @@ const {
 const login = new LoginPage(),
     myAcc = new MyAccountPage();
 
-Given('Open Login page in successfully', () => {
+Given('Open Login page successfully', () => {
     cy.visit('https://automationteststore.com/index.php?rt=account/login')
 })
 
